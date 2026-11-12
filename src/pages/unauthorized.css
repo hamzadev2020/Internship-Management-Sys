@@ -1,0 +1,70 @@
+/* 403 page - same theme as admin.css (works on its own) */
+
+.unauth-page,
+.unauth-page *,
+.unauth-page *::before,
+.unauth-page *::after {
+    box-sizing: border-box;
+}
+
+.unauth-page {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: #f4f6fb;
+    font-family: Arial, sans-serif;
+    color: #202938;
+}
+
+.unauth-card {
+    width: 100%;
+    max-width: 440px;
+    background: white;
+    padding: 40px 32px;
+    border-radius: 12px;
+    border: 1px solid #edf0f5;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.04);
+    text-align: center;
+}
+
+.unauth-code {
+    margin: 0 0 12px;
+    font-size: 72px;
+    line-height: 1;
+    color: #dc4545;
+}
+
+.unauth-card h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #172033;
+}
+
+.unauth-card p {
+    margin: 0 0 26px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #64748b;
+}
+
+.unauth-btn {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.unauth-btn:hover {
+    background: #1d4ed8;
+}
+
+.unauth-btn:focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.35);
+    outline-offset: 2px;
+}
