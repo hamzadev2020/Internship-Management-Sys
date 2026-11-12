@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 /* Login page - same theme as admin.css (works on its own) */
 
 .login-page,
@@ -11,7 +13,7 @@
     display: flex;
     min-height: 100vh;
     background: #f4f6fb;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
     color: #202938;
 }
 
@@ -178,4 +180,8 @@
     .login-card {
         padding: 22px;
     }
+}
+
+.login-page button {
+    font-family: inherit;
 }

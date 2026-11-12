@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 /* Intern dashboard - same theme as admin.css (works on its own) */
 
 .dashboard-container,
@@ -10,7 +12,7 @@
 .dashboard-container {
     min-height: 100vh;
     background: #f4f6fb;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
     color: #202938;
 }
 
@@ -303,4 +305,8 @@
     font-size: 12px;
     font-weight: 600;
     line-height: 1.4;
+}
+
+.dashboard-container button {
+    font-family: inherit;
 }

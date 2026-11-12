@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 /* 403 page - same theme as admin.css (works on its own) */
 
 .unauth-page,
@@ -13,7 +15,7 @@
     place-items: center;
     padding: 20px;
     background: #f4f6fb;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
     color: #202938;
 }
 
@@ -67,4 +69,8 @@
 .unauth-btn:focus-visible {
     outline: 3px solid rgba(37, 99, 235, 0.35);
     outline-offset: 2px;
+}
+
+.unauth-page button {
+    font-family: inherit;
 }
