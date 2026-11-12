@@ -5,7 +5,7 @@ export const BackButton = ({ to }) => {
 
     return (
         <button
-            type="button"
+            type="button    "
             className="back-btn"
             onClick={() => (to ? navigate(to) : navigate(-1))}
         >
